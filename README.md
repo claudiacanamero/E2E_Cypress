@@ -33,6 +33,11 @@ Before you begin, ensure you have the following installed:
    ```bash
    npm run cypress:open
    ```
+2. To be able to see how the video of the tests execution and the screenshot are created:
+   ```bash
+   npx cypress run
+   ```
+
 
 
 
