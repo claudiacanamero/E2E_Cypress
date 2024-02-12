@@ -1,0 +1,5 @@
+{
+  "usuarios": [
+    { "id": 1, "firstName": "Maria" , "lastName": "Gonzalez" , "streetAdress": "Avenida Barcelona" , "postCode": "02790" , "city": "Sabadell" , "country": "Andorra" ,"emailAddress": "fenapex34@gmail.com" }
+  ]
+}
