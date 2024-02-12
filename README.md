@@ -21,15 +21,11 @@ Before you begin, ensure you have the following installed:
    ```
 
 ## Configuration
-1. Ensure that your `package.json` file contains a script to run Cypress. If not, add or modify the `scripts` section like this:
+1. Modify the `package.json` file `scripts` section like this:
    ```json
    "scripts": {
      "cypress:open": "cypress open"
    }
-   ```
-2. Verify that Cypress is correctly installed by running:
-   ```bash
-   npm run cypress:open
    ```
 
 ## Usage
