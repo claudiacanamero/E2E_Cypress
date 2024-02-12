@@ -1,8 +1,42 @@
 # E2E_Cypress
 Entrega: E2E UI Automation with Cypress Practice (Cypress)
 
-To execute the project follow the steps below:
-1. Download the project
-2. Install Cypress locally as a dev dependency for your project (before installing it, make sure you have `Node.js` installed and that you have already run `npm init` or have `node_modules` folder or `package.json` file in the root of your project to ensure cypress is installed in the correct directory).
-3. Execute the command `npm run cypress:open` on the project terminal.
+   ```bash
+This README provides instructions on how to execute an npm project with Cypress in Visual Studio Code.
+   ```
+## Preconditions
+Before you begin, ensure you have the following installed:
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Node.js](https://nodejs.org/) (make sure you have already run `npm init` or have `node_modules` folder or `package.json` file in the root of your project to ensure cypress is installed in the correct directory)
+
+## Installation
+1. Clone the repository or initialize a new npm project:
+   ```bash
+   git clone <repository-url>
+   cd <project-folder>
+   ```
+2. Install Cypress as a dev dependency:
+   ```bash
+   npm install cypress --save-dev
+   ```
+
+## Configuration
+1. Ensure that your `package.json` file contains a script to run Cypress. If not, add or modify the `scripts` section like this:
+   ```json
+   "scripts": {
+     "cypress:open": "cypress open"
+   }
+   ```
+2. Verify that Cypress is correctly installed by running:
+   ```bash
+   npm run cypress:open
+   ```
+
+## Usage
+1. To open Cypress in the interactive test runner, run:
+   ```bash
+   npm run cypress:open
+   ```
+
+
 
