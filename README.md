@@ -21,7 +21,7 @@ Before you begin, ensure you have the following installed:
    ```
 
 ## Configuration
-1. Modify the `package.json` file `scripts` section like this:
+1. Make sure the `package.json` file `scripts` section looks like this:
    ```json
    "scripts": {
      "cypress:open": "cypress open"
